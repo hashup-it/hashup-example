@@ -13,7 +13,7 @@ export const GameDetails = ({ game }: { game: any }) => {
     const [referrer, setReferrer] = useState(ethers.constants.AddressZero)
     //can be taken from the form
     //1 is 0.01 token so you must pass e.g. 700 to buy 7 tokens
-    const [ammount, setAmmount] = useState(1);
+    const [ammount, setAmmount] = useState(100);
 
     useEffect(() => {
         const authorize = async () => {
